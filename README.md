@@ -1,6 +1,9 @@
 # tp2_ml_adaboost 
 
-Replicando e discutindo o algoritmo Adaboost no dataset Tic-Tac-Toe (ucimlrepo).
+Usando um conjunto de classificadores fracos (decision stumps), o algoritmo adaboost é replicado para decidir o resultado de um jogo da velha.
+[Replicando e discutindo o algoritmo Adaboost no dataset Tic-Tac-Toe (ucimlrepo)](https://github.com/Alexandre-Caldeira/tp2_ml_adaboost/blob/main/tp2_ml2_Alexandre_Gomes_Caldeira.ipynb).
+
+![Decision stump](https://raw.githubusercontent.com/Alexandre-Caldeira/tp2_ml_adaboost/main/stump.png)
 
 ### Especificação de objetivo:
 Solucionar o problema de classificação binária no dataset tic-tac-toe, incluindo validação cruzada com 5 partições, com erro simples como medida de eficácia. <br>
@@ -10,6 +13,8 @@ O modelo deve ser construído através de boosting de stumps (árvores de decis�
 Código fonte e documentação do programa que implementa boosting e solução do dataset, demonstrando gráficos de erro de treino e teste do modelo e dos stumps.
 
 ### Resultados:
+
+![Resultados em gráfico de convergência](https://raw.githubusercontent.com/Alexandre-Caldeira/tp2_ml_adaboost/main/res.png)
 
 O algoritmo apresentou o comportamento esperado a partir das discussões em sala de aula, de forma que o erro de cada stump aumenta (tendendo a 0.5) ao passo que o erro empírico e de validação reduzem, com erro empírico menor ou igual ao de validação.
 
